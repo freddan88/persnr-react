@@ -1,6 +1,14 @@
 # persnr-react
 
-Input and basic regex validation for personal numbers in react.js
+> Input and basic regex validation for personal numbers in react.js
+
+| My Links |                                  |
+| -------- | -------------------------------- |
+| Webpage: | http://www.leemann.se/fredrik    |
+| Github:  | https://github.com/freddan88     |
+| Preview: | https://persnr-app01.netlify.app |
+
+---
 
 # Getting Started with Create React App
 
