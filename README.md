@@ -8,6 +8,26 @@
 | Github:  | https://github.com/freddan88     |
 | Preview: | https://persnr-app01.netlify.app |
 
+### Installation & Usage
+
+1. clone to desktop or download zip
+
+```
+git clone https://github.com/freddan88/persnr-react.git
+```
+
+2. install dependencies
+
+```
+cd persnr-react && npm install
+```
+
+3. Start de project (will start a server and open browser)
+
+```
+npm start
+```
+
 ---
 
 # Getting Started with Create React App
