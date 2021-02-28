@@ -9,6 +9,7 @@ const Navbar = (props) => {
     const valueObject = JSON.parse(e.target.value);
     props.setLanguage(valueObject.language);
     props.setCountry(valueObject.country);
+    props.setValue("");
   };
 
   const renderOptions = () => {

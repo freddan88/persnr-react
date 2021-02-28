@@ -92,6 +92,7 @@ const App = () => {
         language={currentLanguage}
         setCountry={setCurrentCountry}
         setLanguage={setCurrentLanguage}
+        setValue={setUserValue}
       />
       <form onSubmit={handleSubmit}>
         <label htmlFor="persnr">{getText(currentLanguage, "pnr")}</label>
