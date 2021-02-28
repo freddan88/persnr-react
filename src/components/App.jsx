@@ -98,19 +98,22 @@ const App = () => {
         <small>
           {getText(currentLanguage, "format")}: {pnrFormat}
         </small>
-        <input
-          required
-          autoFocus
-          type="text"
-          id="persnr"
-          name="persnr"
-          value={userValue}
-          autoComplete="off"
-          onChange={handleChange}
-          title={pnrErrorForValue}
-          maxLength={pnrMaxLength}
-          pattern={pnrRegexPattern}
-        />
+        <div className="input-field">
+          <input
+            required
+            autoFocus
+            type="text"
+            id="persnr"
+            name="persnr"
+            value={userValue}
+            autoComplete="off"
+            onChange={handleChange}
+            title={pnrErrorForValue}
+            maxLength={pnrMaxLength}
+            pattern={pnrRegexPattern}
+          />
+          <span>&#10003;</span>
+        </div>
         <small className={formMessage.type}>{formMessage.message}</small>
         <input type="submit" value={getText(currentLanguage, "submit")} />
       </form>

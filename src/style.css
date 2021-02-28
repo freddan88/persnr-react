@@ -1,3 +1,8 @@
+:root {
+  --clr-error: #fe5f55;
+  --clr-success: #87e752;
+}
+
 *,
 *::before,
 ::after {
@@ -48,14 +53,6 @@ small {
   font-weight: 400;
 }
 
-.error {
-  color: red;
-}
-
-.success {
-  color: green;
-}
-
 label {
   font-size: 1rem;
   font-weight: 700;
@@ -73,10 +70,42 @@ input {
   width: 100%;
 }
 
+.input-field {
+  position: relative;
+}
+
+.input-field span {
+  font-weight: bolder;
+  position: absolute;
+  font-size: 2rem;
+  display: none;
+  right: 10px;
+  top: 5px;
+}
+
+input[type="text"]:valid {
+  border-color: var(--clr-success);
+}
+
+input[type="text"]:valid + span {
+  color: var(--clr-success);
+  display: block;
+}
+
 input:focus,
 select:focus {
   border-color: #73b9f3;
   outline: none;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.4);
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  box-shadow: none;
 }
 
 button {
