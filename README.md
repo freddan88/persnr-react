@@ -28,6 +28,27 @@ cd persnr-react && npm install
 npm start
 ```
 
+### Features
+
+- Multiple languages
+- Different formats
+- Validate using regex
+- Automatic separator
+- Format input & output
+
+> Some languages may be poorly translated because of Google Translate
+
+### Thoughts
+
+- Add validation using the Luhn algoritm<br/>
+  Examples: https://npm.io/search/keyword:luhn
+
+### References
+
+- [Personnummer - Hans Högman](http://www.hhogman.se/personnr_sv.htm)
+- [RegExr - Regular Expression Tester](https://regexr.com)
+- [Regular Expressions Syntax Reference](https://www.rexegg.com/regex-quickstart.html)
+
 ---
 
 # Getting Started with Create React App
